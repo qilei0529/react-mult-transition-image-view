@@ -1,0 +1,14 @@
+{
+  "name": "react-mult-transition-image-view",
+  "version": "1.0.0",
+  "description": "a grace react component for image display.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "qilei",
+  "license": "ISC"
+}
