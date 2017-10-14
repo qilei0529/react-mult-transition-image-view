@@ -1,14 +1,25 @@
 {
   "name": "react-mult-transition-image-view",
-  "version": "1.0.0",
-  "description": "a grace react component for image display.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.1",
+  "description": "a graceful react component for image display.",
+  "main": "lib/index.js",
   "keywords": [
     "react"
   ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel": "babel src/ -d lib/"
+  },
+  "files": [
+    "lib/"
+  ],
   "author": "qilei",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5"
+  }
 }
