@@ -14,10 +14,10 @@ a graceful react component for image display.
     <ImageBoxView
         width="320"    // 
         height="200"   // will trans to style
-        animate="fade" // animate 
-        delay="100"    // 
-        wait="1000"
-        mode="style"   
+        animate="fade" // animate flag , do not forget add styles at below
+        delay="100"    // will delay to load img
+        wait="1000"    // will wait between loading img arry
+        mode="style"   // display img by 'background-image'
         img={'image-path-url'}   // 1. 'image-path-url' can be string , 
                                  // 2. ['image-path', 'hd-image-path']， it will trans from 'image-path' to 'hd-image-path'
     />
