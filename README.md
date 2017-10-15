@@ -16,6 +16,8 @@ a graceful react component for image display.
 **图片过渡**
  通过传入 img: [ img_sml , img_big ] ，来实现 图片从低质量 过渡到高质量来 防止大图 加载慢引起的空白。
 
+![加载截图](https://raw.githubusercontent.com/qilei0529/react-mult-transition-image-view/edb9aeb4520bac40106cd4cdeab2b72c727181d2/src/shot.gif)
+
 ### Use
 
     npm install react-mult-transition-image-view
