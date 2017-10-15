@@ -5,15 +5,15 @@ a graceful react component for image display.
 ----
 一个react图片显示组件
 
-
-| 参数 | 描述 | |
+| 参数 | 描述 | |    
+| ------------- |:-------------:| :----- |
 | width | 宽度 ( 可选 ) |  会被转换成 style 的 width height  |  
 | height | 高度 ( 可选 )  | |
 | animate | 动画 ( 可选 )  | 默认: 'none' , 设置 'fade'  会加入 动画 class img-animate 来实现过渡动画) |
 | mode | 模式 ( 可选 ) | 默认: style |
 | img | 模式 ( 必选 ) | 可以是 url:string , 或者 是 [] 图片列表 |
 
-* 图片 过渡*
+**图片过渡**
  通过传入 img: [ img_sml , img_big ] ，来实现 图片从低质量 过渡到高质量来 防止大图 加载慢引起的空白。
 
 ### Use
