@@ -1,6 +1,6 @@
 {
   "name": "react-mult-transition-image-view",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "a graceful react component for image display.",
   "main": "lib/index.js",
   "keywords": [
