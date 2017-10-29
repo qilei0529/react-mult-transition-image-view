@@ -3,7 +3,7 @@
 a graceful react component for image display.
 
 ----
-一个react图片显示组件
+一个react图片显示组件 [segmentfault 使用说明](https://segmentfault.com/a/1190000011762388)
 
 | 参数 | 描述 | |    
 | ------------- |:-------------:| :----- |
