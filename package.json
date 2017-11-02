@@ -1,6 +1,6 @@
 {
   "name": "react-mult-transition-image-view",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a graceful react component for image display.",
   "main": "lib/index.js",
   "keywords": [
@@ -9,6 +9,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel": "babel src/ -d lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qilei0529/react-mult-transition-image-view.git"
   },
   "files": [
     "lib/"

@@ -88,6 +88,15 @@ class ImageBoxView extends Component {
     componentWillUnmount() {
         this._timer && clearTimeout(this._timer)
     }
+    
+    componentWillReceiveProps(nextProps) {
+        let { img } = nextProps
+        if (img != this.state.img_data) {
+            let state = this.init(nextProps)
+            state.show = true
+            this.setState(state)
+        }
+    }
 
     onFetchImg( index ) {
 

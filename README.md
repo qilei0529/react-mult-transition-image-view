@@ -22,6 +22,12 @@ a graceful react component for image display.
 
 ![加载截图](https://raw.githubusercontent.com/qilei0529/react-mult-transition-image-view/edb9aeb4520bac40106cd4cdeab2b72c727181d2/src/shot.gif)
 
+
+### UPDATE
+1.0.5 fix component receive props can not update
+
+
+----
 ### Use
 
     npm install react-mult-transition-image-view
